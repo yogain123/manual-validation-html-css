@@ -31,8 +31,7 @@ function App() {
           setName(event.target.value);
           validate(event.target.value);
         }}
-        onBlur={(event) => {
-          debugger;
+        onBlur={(event) =>  {
           setTouched({ name: true });
           setName(event.target.value);
           validate(event.target.value);
